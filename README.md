@@ -4,6 +4,11 @@ This course comes after Programming0 and before Programming 101. Hence - 51! Thi
 
 The language of choice is going to be Java. The reason here is simple - Python's OOP contains too much magic for a beginner to handle. So we are going to use the clasiccal approach with Java!
 
+In order to understand that course, please check:
+
+* [Programming 0 Course](http://github.com/HackBulgaria/Programming0-1)
+* [This article - After Programming 0](http://blog.hackbulgaria.com/after-programming-0/)
+
 ## Program
 
 **Here is a high-level overview of the program** - what we are going to cover and use in this course:
