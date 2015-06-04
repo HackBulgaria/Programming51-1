@@ -1,5 +1,7 @@
 # Week 1
 
+## Start week 1
+
 Things you need to start this course:
 
 * [Install Java and JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
