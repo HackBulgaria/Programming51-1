@@ -25,3 +25,10 @@ In order to understand that course, please check:
 10. After the trees, are are going to take a look into `Graphs` - how to implement them and what are the basics algorithms that we can run there.
 11. And to finish the course, we are going to revisit some of the data structures, and implement them better, with the latest knowledge we have.
 
+
+Also, we are going to cover some of the concepts from the Java language:
+
+* Exceptions
+* Generics
+* Input / Output
+
