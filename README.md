@@ -13,7 +13,7 @@ In order to understand that course, please check:
 
 The course is happening thanks to:
 
-![Nemetschek Bulgaria](https://hackbulgaria.com/media/partner_logoes/logo_transparent_w200.png)
+[![Nemetschek Bulgaria](https://hackbulgaria.com/media/partner_logoes/logo_transparent_w200.png)](http://www.nemetschek.bg/)
 
 ## Program
 
