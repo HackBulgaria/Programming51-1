@@ -9,6 +9,12 @@ In order to understand that course, please check:
 * [Programming 0 Course](http://github.com/HackBulgaria/Programming0-1)
 * [This article - After Programming 0](http://blog.hackbulgaria.com/after-programming-0/)
 
+## Partners
+
+The course is happening thanks to:
+
+![Nemetschek Bulgaria](https://hackbulgaria.com/media/partner_logoes/logo_transparent_w200.png)
+
 ## Program
 
 **Here is a high-level overview of the program** - what we are going to cover and use in this course:
