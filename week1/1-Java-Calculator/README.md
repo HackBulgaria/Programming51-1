@@ -1,6 +1,6 @@
 # Java Calculator
 
-In a `com.hackbulgaria.programming51.week1` package create a `Calculator.java` class, where you:
+In a `com.hackbulgaria.programming51.week1` package create a `Calculator` class, where you:
 
 * read one integer `a` from the standard input
 * read one character `oper` - the operation of the calculator - from the standard input

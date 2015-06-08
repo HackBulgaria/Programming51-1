@@ -1,6 +1,6 @@
 # Is n + nReveresed a palindrome
 
-In a `com.hackbulgaria.51.week1` package, create a `IntegerPalindrome.java` class, where you:
+In a `com.hackbulgaria.51.week1` package, create a `IntegerPalindrome` class, where you:
 
 * read one integer `n` from the standard input
 * Output `"YES"` **if the sum of `n` and the reversed number `n`** is palindrome.

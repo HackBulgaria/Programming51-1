@@ -5,7 +5,7 @@ We denote the "Palindrome score" of an integer by the following function:
 * `P(n) = 1`, if `n` is palindrome
 * `P(n) = 1 + P(s)` where `s` is the sum of `n` and the `reverse of n`
 
-In a `com.hackbulgaria.51.week1` package, in a `PalindromeScore.java` class, implement a program that:
+In a `com.hackbulgaria.51.week1` package, in a `PalindromeScore` class, implement a program that:
 
 * Reads one integer `n` from the standard input
 * Output the palindrome score for `n`
