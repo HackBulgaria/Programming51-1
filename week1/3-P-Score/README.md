@@ -21,3 +21,7 @@ Lets see two examples:
 1. `P(132) = 1 + 1 + P(132 + 321 = 363)`
 1. `P(363) = 1`.
 1. When we return from the recursion, we get 3.
+
+## Help
+
+This is a recursive problem by nature. But try to solve it with a `while(true) {}` cycle. Break when you think it is time to break.
