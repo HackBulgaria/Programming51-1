@@ -1,6 +1,6 @@
 # Programming51-1
 
-## Седмици на курса
+## Course weeks
 
 | Week | Date | Tasks | Presentation | 
 |---------|-------- |---------|-------------|
