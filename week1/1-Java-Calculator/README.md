@@ -27,7 +27,7 @@ public class Calculator {
     int a = scanner.nextInt();
     char oper = scanner.next().charAt(0);
     int b = scanner.nextInt();
-    
+
     System.out.println(a);
     System.out.println(oper);
     System.out.println(b);
