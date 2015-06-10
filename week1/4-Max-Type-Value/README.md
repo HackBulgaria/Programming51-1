@@ -1,5 +1,7 @@
 # Max-Type-Value
 
+In a `com.hackbulgaria.programming51.week1` package create a `MaxTypeValue` class, where you:
+
 ## Max Int Value
 
 Try to find the maximum value of `int` with a `while`/`for` cycle:
