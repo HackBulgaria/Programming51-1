@@ -6,8 +6,6 @@ In a `com.hackbulgaria.programming51.week1` package create a `Binary` class, whe
 
 Create a method `public static String toBinary(int n){}` that converts an integer value to its binary representation.
 
-Test the method in `main`
-
 ### Examples
 
 Input:
@@ -42,7 +40,7 @@ Output:
 
 ## Count bits
 
-Create a method `public static int countBits(int n){}` that counts the bits in a decimal number.
+Create a method `public static int countBits(int n){}` that counts the bits in a decimal number. That is, the length of the binary number, without the leading zeroes.
 
 ### Examples
 
