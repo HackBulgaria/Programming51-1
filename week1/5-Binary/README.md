@@ -2,7 +2,7 @@
 
 In a `com.hackbulgaria.programming51.week1` package create a `Binary` class, where you create the following methods and test them in `main`:
 
-## String to Binary
+## Int to Binary
 
 Create a method `public static String toBinary(int n){}` that converts an integer value to its binary representation.
 
