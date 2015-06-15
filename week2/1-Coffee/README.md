@@ -1,4 +1,4 @@
-# 1-Coffee
+# Coffee
 
 In a `com.hackbulgaria.programming51.week2` package create a `Coffee` class, where you:
 
