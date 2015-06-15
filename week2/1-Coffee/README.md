@@ -12,7 +12,7 @@ Example, in main:
 ```java
 Coffee java = new Coffee();
 java.brand = "Java";
-java.price = 1.00f;
+java.price = 1.00;
 System.out.println(java);
 ```
 
