@@ -5,6 +5,7 @@
 | Week | Date | Tasks | Presentation | 
 |---------|-------- |---------|-------------|
 | 1       | Monday - 08.06|[Tasks for week1](week1/)      | [Presentation for week1](http://slides.com/hackbulgaria/deck-17/)           |
+| 2 | Monday - 15.06 | [Tasks for week2](week2/) | [Presentation for week2 about OOP](http://slides.com/hackbulgaria/oop) |
 
 This course comes after Programming0 and before Programming 101. Hence - 51! This will be about OOP &amp; Data Structures.
 
