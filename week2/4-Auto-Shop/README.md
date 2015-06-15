@@ -1,4 +1,4 @@
-# 3-Auto-Shop
+# 4-Auto-Shop
 
 In a `com.hackbulgaria.programming51.week2` package create an `AutoShop` class where you:
 
@@ -40,4 +40,10 @@ as.addCar(audi);
 as.addCar(peugeot);
 
 System.out.println(as.getTopSpeed());
+```
+
+Should print:
+
+```java
+Audi Begachka, Max Speed: 200, Price: 5000, Owner: Ivan(25)
 ```
