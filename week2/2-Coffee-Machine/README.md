@@ -11,8 +11,17 @@ In main:
 
 ```java
 CoffeeMachine cm = new CoffeeMachine();
-cm.addCoffee("Java",1.00);
-cm.addCoffee("Latte",1.50);
+Coffee Java = new Coffee();
+Coffee Latte = new Coffee();
+
+Java.name = "Java";
+Java.price = 1.00;
+
+Latte.name = "Latte";
+Latte.price = 1.50;
+
+cm.addCoffee(Java);
+cm.addCoffee(Latte);
 System.out.println(cm.buyCoffee("Latte",3.40));
 ```
 
