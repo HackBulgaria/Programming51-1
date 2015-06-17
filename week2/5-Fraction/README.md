@@ -7,8 +7,11 @@ In a `com.hackbulgaria.programming51.week2` package create a `Fraction` class wh
 * Create a method `public void sum(Fraction F)` that sums the current Fraction with another Fraction
 * Create a method `public void simplify()` that simplifies your `Fraction`
 
-Example 1:
-In main:
+## Examples
+
+### Example 1:
+
+#### In main:
 
 ```java
 Fraction a = new Fraction();
@@ -18,14 +21,15 @@ a.den = 12;
 System.println(a);
 ```
 
-Should print:
+#### Should print:
 
 ```java
 4/12
 ```
 
-Example 2:
-In main:
+### Example 2:
+
+####In main:
 
 ```java
 Fraction a = new Fraction();
@@ -35,13 +39,13 @@ a.den = 12;
 System.out.println(a.getReal());
 ```
 
-Should print:
+#### Should print:
 
 ```java
 0.3333333333
 ```
 
-Example 3:
+### Example 3:
 In main:
 
 ```java
@@ -55,15 +59,16 @@ a.sum(b);
 System.out.println(a);
 ```
 
-Should print:
+#### Should print:
 
 ```java
 13/24
 ```
 
-Example 4:
-Example: 
-In main:
+### Example 4:
+
+#### In main:
+
 ```java
 Fraction a = new Fraction();
 a.num = 4;
@@ -73,7 +78,7 @@ a.simplify();
 System.out.println(a);
 ```
 
-Should print:
+#### Should print:
 
 ```java
 4/12
