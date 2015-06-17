@@ -3,7 +3,7 @@
 In a `com.hackbulgaria.programming51.week2` package create a `Fraction` class where you:
 
 * Define a fraction with numerator and denominator.
-* Create a method `public float getReal()` that returns the fraction as a number with a decimal point.
+* Create a method `public double getReal()` that returns the fraction as a number with a decimal point.
 * Create a method `public void sum(Fraction F)` that sums the current Fraction with another Fraction
 * Create a method `public void simplify()` that simplifies your `Fraction`
 
