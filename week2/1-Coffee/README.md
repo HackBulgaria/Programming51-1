@@ -1,20 +1,19 @@
-# 1-Coffee
+# Coffee
 
 In a `com.hackbulgaria.programming51.week2` package create a `Coffee` class, where you:
 
-* Define attributes for `class Coffee` that have `brand` and `price` Think about their types.
-* Make several objects of type `Coffee` and print them
-* Define `toString`
+* Define attributes for `Coffee` that have `brand` and `price` Think about their types.
+* Make several objects of type `Coffee` and print them.
+* Define `public String toString() {}` for `Coffee`.
 
-Example:
+Example, in main:
 
-In main:
 
 ```java
-Coffee Java = new Coffee();
-Java.brand = "Java";
-Java.price = 1.00f;
-System.out.println(Java);
+Coffee java = new Coffee();
+java.brand = "Java";
+java.price = 1.00;
+System.out.println(java);
 ```
 
 Should print:
