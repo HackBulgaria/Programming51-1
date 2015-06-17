@@ -4,7 +4,8 @@ In a `com.hackbulgaria.programming51.week2` package create an `Auto` class, and 
 
 The `Person` class represents the owner of the car and has:
 * `firstName`
-* `lastName`.
+* `lastName`
+* `age`
 
 The `Auto` class represents a car and has:
 * `owner` (Person)
@@ -19,13 +20,14 @@ Example:
 In main:
 
 ```java
-Person Ivan = new Person();
-Ivan.name = "Ivan";
-Ivan.age = 25;
+Person ivan = new Person();
+ivan.firstName = "Ivan";
+ivan.lastName = "Ivanov";
+ivan.age = 25;
 
 Auto audi = new Auto();
 
-audi.owner = Ivan;
+audi.owner = ivan;
 audi.maxSpeed = 200;
 audi.brand = "Audi";
 audi.name = "Begachka";
@@ -37,5 +39,5 @@ System.out.println(audi);
 Should print:
 
 ```java
-Audi Begachka, Max Speed: 200, Price: 5000, Owner: Ivan(25)
+Audi Begachka, Max Speed: 200, Price: 5000, Owner: Ivan Ivanov age: 25
 ```
