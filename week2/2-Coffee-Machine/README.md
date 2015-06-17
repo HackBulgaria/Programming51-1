@@ -9,7 +9,7 @@ In a `com.hackbulgaria.programming51.week2` package create a `CoffeeMachine` cla
 **And the following methods:**
 
 * Create method for adding `Coffee` in the machine - `public boolean addCoffee(Coffee coffee)`. The method should return `true` if you can add that coffee type to the machine. Otherwise, return `false` (more than 10 cups are added)
-* Create method for buying `Coffee` from the Coffee Machine `public float buyCoffee(String name, float price)`. This method recieves coffee name and money given by the buyer. If the coffee brand exsists in `brandsOfCoffee` - return the change. If it doesn't - return `-1`. **The amounts of coffee we can buy, for now, is unlimited.**
+* Create method for buying `Coffee` from the Coffee Machine `public float buyCoffee(String brand, float price)`. This method recieves coffee brand and money given by the buyer. If the coffee brand exsists in `brandsOfCoffee` - return the change. If it doesn't - return `-1`. **The amounts of coffee we can buy, for now, is unlimited.**
 
 Example in main:
 
@@ -18,10 +18,10 @@ CoffeeMachine cm = new CoffeeMachine();
 Coffee java = new Coffee();
 Coffee latte = new Coffee();
 
-java.name = "Java";
+java.brand = "Java";
 java.price = 1.00;
 
-latte.name = "Latte";
+latte.brand = "Latte";
 latte.price = 1.50;
 
 cm.addCoffee(java);
