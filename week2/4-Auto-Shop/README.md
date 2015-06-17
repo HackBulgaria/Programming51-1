@@ -19,7 +19,7 @@ ivan.age = 25;
 Auto audi = new Auto();
 
 audi.owner = ivan;
-audi.maxSpeed = 200;
+audi.maxSpeed = 250;
 audi.brand = "Audi";
 audi.name = "Begachka";
 audi.price = 5000;
@@ -30,11 +30,11 @@ gosho.age = 25;
 
 Auto peugeot = new Auto();
 
-audi.owner = gosho;
-audi.maxSpeed = 220;
-audi.brand = "Peugeot";
-audi.name = "Dragster";
-audi.price = 10000;
+peugeot.owner = gosho;
+peugeot.maxSpeed = 220;
+peugeot.brand = "Peugeot";
+peugeot.name = "Dragster";
+peugeot.price = 10000;
 
 AutoShop as = new AutoShop();
 as.addCar(audi);
@@ -46,5 +46,5 @@ System.out.println(as.getTopSpeed());
 ### Should print:
 
 ```java
-Audi Begachka, Max Speed: 200, Price: 5000, Owner: Ivan(25)
+Audi Begachka, Max Speed: 250, Price: 5000, Owner: Ivan(25)
 ```
