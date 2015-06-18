@@ -6,7 +6,7 @@
 |---------|-------- |---------|-------------|
 | 1       | Monday - 08.06|[Tasks for week1](week1/)      | [Presentation for week1](http://slides.com/hackbulgaria/deck-17/)           |
 | 2 | Monday - 15.06 | [Tasks for week2](week2/) | [Presentation for week2 about OOP](http://slides.com/hackbulgaria/oop) |
-| 2 | Thursday - 15.06 | [Tasks for week2](week2/) | [Presentation for week2 about OOP](http://slides.com/hackbulgaria/oop-19) [Info on Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html) [Info on Reference Data Types](http://docstore.mik.ua/orelly/java-ent/jnut/ch02_10.htm) |
+| 2 | Thursday - 15.06 | [Tasks for week2](week2/) | 1.[Presentation for week2 about OOP](http://slides.com/hackbulgaria/oop-19) </br> 2.[Info on Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)</br> 3.[Info on Reference Data Types](http://docstore.mik.ua/orelly/java-ent/jnut/ch02_10.htm) |
 
 This course comes after Programming0 and before Programming 101. Hence - 51! This will be about OOP &amp; Data Structures.
 
