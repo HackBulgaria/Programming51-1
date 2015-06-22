@@ -7,7 +7,7 @@ In a `com.hackbulgaria.programming51.week3` package do the following:
 ### Define the following
 
 * `public static String toString(int [] a)` method that recieves an integer array and returns a string of the array, separated by ","
-* `public static String sort(int [] a)` method that recieves an array of int and sorts it
+* `public static void sort(int [] a)` method that recieves an array of int and sorts it
 * `public static int [] reverse(int [] a)` method that recieves an integer array and returns the reversed array
 * `public static String join(int [] a, String glue)` method that recieves an array of int and a string and returns a String of the array elements with 'glue' between them
 * `public static int sum(int [] a)` method that returns the sum of all the elements in 'a'
