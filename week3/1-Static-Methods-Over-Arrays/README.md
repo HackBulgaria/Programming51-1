@@ -16,6 +16,9 @@ In a `com.hackbulgaria.programming51.week3` package do the following:
 
 ## Examples
 
+You can open [Arr.java](Arr.java) and take the boilerplate code from it.
+
+
 ### Example for `toString(int [] a)`
 
 ```java
