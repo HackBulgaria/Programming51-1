@@ -1,5 +1,7 @@
 # A program that keeps track of travel expenses
 
+In a package `com.hackbulgaria.programming51.week3` do the following:
+
 You are given the task to create a simple Java program that keeps track of the travel expenses of the company.
 
 In order to solve that problem, you will have to model:
