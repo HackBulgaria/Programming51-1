@@ -50,14 +50,14 @@ Should print:
 
 ```java
   int [] a = {3,1,-40,200,5};
-  a = Arr.sort(a);
+  a = Arr.reverse(a);
   System.out.println(Arr.toString(a));
 ```
 
 Should print:
 
 ```
-  5, 200, -40, 1, 320
+  5, 200, -40, 1, 3
 ```
 
 ### Example for `join(int [] a, String glue)`
