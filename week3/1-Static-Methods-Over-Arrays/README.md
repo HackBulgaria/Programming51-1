@@ -6,13 +6,13 @@ In a `com.hackbulgaria.programming51.week3` package do the following:
 
 ### Define the following
 
-* public static String toString(int [] a) method that recieves an integer array and returns a string of the array, separated by ","
-* public static String sort(int [] a) method that recieves an array of int and sorts it
-* public static int [] reverse(int [] a) method that recieves an integer array and returns the reversed array
-* public static String join(int [] a, String glue) method that recieves an array of int and a string and returns a String of the array elements with 'glue' between them
-* public static int sum(int [] a) method that returns the sum of all the elements in 'a'
-* public static int [] range(int a, int b) that returns an array of int with elements in the range between a and b
-* public static int [] filterOdd(int a) method that returns an array with only the Odd numbers from 'a'
+* `public static String toString(int [] a)` method that recieves an integer array and returns a string of the array, separated by ","
+* `public static String sort(int [] a)` method that recieves an array of int and sorts it
+* `public static int [] reverse(int [] a)` method that recieves an integer array and returns the reversed array
+* `public static String join(int [] a, String glue)` method that recieves an array of int and a string and returns a String of the array elements with 'glue' between them
+* `public static int sum(int [] a)` method that returns the sum of all the elements in 'a'
+* `public static int [] range(int a, int b)` that returns an array of int with elements in the range between a and b
+* `public static int [] filterOdd(int a)` method that returns an array with only the Odd numbers from 'a'
 
 ## Examples
 
