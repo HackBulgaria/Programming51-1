@@ -106,8 +106,8 @@ Should print:
 
 ```java
   int [] a = {2,3,4,8,9,11,13,15};
-  a = Arr.filterOdd(a);
-  System.out.println(Arr.join(a, ", "));
+  int [] temp = Arr.filterOdd(a);
+  System.out.println(Arr.join(temp, ", "));
 ```
 
 Should print:
