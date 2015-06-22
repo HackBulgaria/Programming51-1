@@ -105,7 +105,7 @@ Should print:
 ### Example for `filterOdd(int [] a)`
 
 ```java
-  int [] a = Arr.range(10, 20);
+  int [] a = {2,3,4,8,9,11,13,15};
   Arr.filterOdd(a);
   System.out.println(Arr.join(a, ", "));
 ```
@@ -113,5 +113,5 @@ Should print:
 Should print:
 
 ```
-  10, 12, 14, 16, 18
+  3, 9, 11, 13, 15
 ```
