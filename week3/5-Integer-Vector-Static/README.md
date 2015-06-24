@@ -1,8 +1,8 @@
-# Integer-Static
+# Ingeger-Vector-Static
 
 In a `com.hackbulgaria.programming51.week3` package do the following:
 
-## Define a `class IntegerStatic` where you
+## Define a `class IntegerVectorStatic` where you
 
 ### Define the following
 
@@ -15,16 +15,14 @@ In a `com.hackbulgaria.programming51.week3` package do the following:
 
 ## Examples
 
-You can open [Arr.java](Arr.java) and take the boilerplate code from it.
 
-
-### Example for `IntegerStatic.toString(IntegerVector v)`
+### Example for `IntegerVectorStatic.toString(IntegerVector v)`
 
 ```java
   int [] a = {1,2,3,4,5};
   IntegerVector v = new IntegerVector();
   v.addAll(a);
-  System.out.println(IntegerStatic.toString(v));
+  System.out.println(IntegerVectorStatic.toString(v));
 ```
 
 Should print:
@@ -33,13 +31,14 @@ Should print:
   1, 2, 3, 4, 5
 ```
 
-### Example for `IntegerStatic.sort(IntegerVector v)`
+### Example for `IntegerVectorStatic.sort(IntegerVector v)`
 
 ```java
   int [] a = {1,2,3,4,5};
   IntegerVector v = new IntegerVector();
-  IntegerStatic.sort(v);
-  System.out.println(IntegerStatic.toString(v));
+  v.addAll(a);
+  IntegerVectorStatic.sort(v);
+  System.out.println(IntegerVectorStatic.toString(v));
 ```
 
 Should print:
@@ -53,8 +52,8 @@ Should print:
 ```java
   int [] a = {1,2,3,4,5};
   IntegerVector v = new IntegerVector();
-  IntegerStatic.reverse(v);
-  System.out.println(IntegerStatic.toString(v));
+  IntegerVector temp = IntegerVectorStatic.reverse(v);
+  System.out.println(IntegerVectorStatic.toString(temp));
 ```
 
 Should print:
@@ -69,8 +68,8 @@ Should print:
   int [] a = {1,2,3,4,5};
   IntegerVector v = new IntegerVector();
   v.addAll(a);
-  System.out.println(IntegerStatic.join(v,": "));
-  System.out.println(IntegerStatic.join(v,"->"));
+  System.out.println(IntegerVectorStatic.join(v,": "));
+  System.out.println(IntegerVectorStatic.join(v,"->"));
 ```
 
 Should print:
@@ -86,7 +85,7 @@ Should print:
   int [] a = {1,2,3,4,5};
   IntegerVector v = new IntegerVector();
   v.addAll(a);
-  System.out.println(IntegerStatic.sum(v));
+  System.out.println(IntegerVectorStatic.sum(v));
 ```
 
 Should print:
@@ -100,7 +99,7 @@ Should print:
 ```java
   IntegerVector v = new IntegerVector();
   v = IntegerStatic.range(10,20);
-  System.out.println(IntegerStatic.toString(v));
+  System.out.println(IntegerVectorStatic.toString(v));
 ```
 
 Should print:
@@ -115,7 +114,7 @@ Should print:
   int [] a = {2,3,4,8,9,11,13,15};
   IntegerVector v = new IntegerVector();
   v.addAll(a);
-  IntegerVector temp = IntegerStatic.filterOdd(v);
+  IntegerVector temp = IntegerVectorStatic.filterOdd(v);
   System.out.println(temp);
 ```
 
