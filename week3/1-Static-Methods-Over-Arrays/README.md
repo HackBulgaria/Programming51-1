@@ -50,14 +50,14 @@ Should print:
 
 ```java
   int [] a = {3,1,-40,200,5};
-  a = Arr.sort(a);
+  a = Arr.reverse(a);
   System.out.println(Arr.toString(a));
 ```
 
 Should print:
 
 ```
-  5, 200, -40, 1, 320
+  5, 200, -40, 1, 3
 ```
 
 ### Example for `join(int [] a, String glue)`
@@ -105,13 +105,13 @@ Should print:
 ### Example for `filterOdd(int [] a)`
 
 ```java
-  int [] a = Arr.range(10, 20);
-  Arr.filterOdd(a);
-  System.out.println(Arr.join(a, ", "));
+  int [] a = {2,3,4,8,9,11,13,15};
+  int [] temp = Arr.filterOdd(a);
+  System.out.println(Arr.join(temp, ", "));
 ```
 
 Should print:
 
 ```
-  10, 12, 14, 16, 18
+  3, 9, 11, 13, 15
 ```
