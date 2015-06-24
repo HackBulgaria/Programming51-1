@@ -99,6 +99,6 @@ Should print:
 Should print:
 
 ```
-	2
-	8
+	3
+	9
 ```
