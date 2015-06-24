@@ -108,7 +108,7 @@ Should print:
   10, 11, 12, 13, 14, 15, 16, 17, 18, 19
 ```
 
-### Example for `filterOdd(int [] a)`
+### Example for `filterOdd(IntegerVector v)`
 
 ```java
   int [] a = {2,3,4,8,9,11,13,15};
