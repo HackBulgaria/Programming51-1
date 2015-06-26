@@ -34,7 +34,7 @@ Should print:
 ### Example for `IntegerVectorStatic.sort(IntegerVector v)`
 
 ```java
-  int [] a = {1,2,3,4,5};
+  int [] a = {3,1,-40,200,5};
   IntegerVector v = new IntegerVector();
   v.addAll(a);
   IntegerVectorStatic.sort(v);
@@ -50,7 +50,7 @@ Should print:
 ### Example for `reverse(IntegerVector v)`
 
 ```java
-  int [] a = {1,2,3,4,5};
+  int [] a = {3,1,-40,200,5};
   IntegerVector v = new IntegerVector();
   IntegerVector temp = IntegerVectorStatic.reverse(v);
   System.out.println(IntegerVectorStatic.toString(temp));
@@ -65,7 +65,7 @@ Should print:
 ### Example for `join(IntegerVector v, String glue)`
 
 ```java
-  int [] a = {1,2,3,4,5};
+  int [] a = {3,1,-40,200,5};
   IntegerVector v = new IntegerVector();
   v.addAll(a);
   System.out.println(IntegerVectorStatic.join(v,": "));
