@@ -9,6 +9,8 @@ In a `com.hackbulgaria.programming51.week3` package do the following:
 	* public void addAll(int [] n) method that adds all the elements from n to the back of the vector
 	* public int get(int index) method that returns the value of the element on place index
 	* public String toString() method
+	* public void insert(int index, int data) method that inserts an element in the vector on the place marked by index
+	* public void remove(int index) method that removes an element from the array
 
 ## Examples:
 
@@ -101,4 +103,42 @@ Should print:
 ```
 	3
 	9
+```
+
+### Example for `insert(int index, int data)`
+
+```java
+	IntegerVector v = new IntegerVector();
+	for (int i = 0; i < 10; i++) {
+		v.add(i);
+	}
+	System.out.println(v);
+	v.insert(3,10);
+	System.out.println(v);
+```
+
+Should print:
+
+```
+	0 1 2 3 4 5 6 7 8 9
+	0 1 2 10 3 4 5 6 7 8 9
+```
+
+### Example for `remove(int index)`
+
+```java
+	IntegerVector v = new IntegerVector();
+	for (int i = 0; i < 10; i++) {
+		v.add(i);
+	}
+	System.out.println(v);
+	v.remove(3);
+	System.out.println(v);
+```
+
+Should print:
+
+```
+	0 1 2 3 4 5 6 7 8 9
+	0 1 2 4 5 6 7 8 9
 ```
