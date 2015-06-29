@@ -9,6 +9,7 @@
 | 2 | Wednesday - 17.06 | [Tasks for week2](week2/) | [Presentation for week2 about OOP](http://slides.com/hackbulgaria/oop-19) |
 | 2 | Saturday - 20.06 | [Tasks for week2](week2/) | [OOP Recap](http://slides.com/hackbulgaria/deck-20) |
 | 3 | Monday - 22.06 | [Tasks for week3](week3/) | [OOP and Array Recap](http://slides.com/hackbulgaria/deck-21) |
+| 3 | Wednesday - 24.06 | [Tasks for week3](week3/) | [Vectors](http://slides.com/hackbulgaria/deck-21-22#/) |
 
 This course comes after Programming0 and before Programming 101. Hence - 51! This will be about OOP &amp; Data Structures.
 
