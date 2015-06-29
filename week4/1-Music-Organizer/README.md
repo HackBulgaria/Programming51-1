@@ -21,7 +21,7 @@ Have the following attributes and methods:
 
 * `Vector` of type `Song` named `songs`
 * proper constructors
-* method `public boolean addSong(Song s)` that adds a song to the music player. If addition is successful return true. If there is not enough space, return false
+* method `public void addSong(Song s)` that adds a song to the music player. If addition is successful return true. If there is not enough space, return false
 * method `public int getCount()` that returns the number of songs added to the player
 * method `public Vector<String> getAlbums()` that returns an vector of all the **different** album names in the Music Organiser
 * method `public int getAlbumsCount()` that returns the number of **different** album names in the Music Organiser
