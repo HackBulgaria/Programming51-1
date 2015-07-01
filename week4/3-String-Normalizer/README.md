@@ -49,7 +49,7 @@ public class StringNormalizer {
 
 		Scanner scanner = new Scanner(System.in);
 
-		String s = scanner.next();
+		String s = scanner.nextLine();
 
 		System.out.println(normalizeString(s));
 	}
