@@ -12,7 +12,7 @@ A normalized string is a string where:
 
 ## The Task:
 
-In a `class String Normalizer` create a static method `public static String normalizeString(String s)` which recieves a string `s` and returns a normalized version of `s`
+In a `class StringNormalizer` create a static method `public static String normalizeString(String s)` which recieves a string `s` and returns a normalized version of `s`
 
 ## `class StringNormalizer` shlould look like:
 
