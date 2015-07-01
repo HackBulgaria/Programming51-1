@@ -44,15 +44,14 @@ public class VectorOfVectors {
 		Vector<Vector<Integer>> vi;
 		Scanner scanner = new Scanner(System.in);
 
-		Vector<Integer> v = new Vector<Integer>();
 		int n = scanner.nextInt();
 		for (int i = 0; i < n; i++) {
+			Vector<Integer> v = new Vector<Integer>();
 			int num = scanner.nextInt();
 			for (int k = 0; k < num; k++) {
 				v.add(scanner.nextInt());
 			}
 			vi.add(v);
-			v.clear();
 		}
 		System.out.println(sortAndUnique(vi));
 	}
