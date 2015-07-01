@@ -47,8 +47,8 @@ public class VectorOfVectors {
 		Vector<Integer> v = new Vector<Integer>();
 		int n = scanner.nextInt();
 		for (int i = 0; i < n; i++) {
-			n = scanner.nextInt();
-			for (int k = 0; k < n; k++) {
+			int num = scanner.nextInt();
+			for (int k = 0; k < num; k++) {
 				v.add(scanner.nextInt());
 			}
 			vi.add(v);
