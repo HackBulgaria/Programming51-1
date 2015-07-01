@@ -4,6 +4,7 @@ In a package `com.hackbulgaria.programming51.week4` do the following:
 
 You are given the task to normalize all the strings in a file.
 A normalized string is a string where:
+
 * Every word begins with a capital letter
 * All the other letters in the word are lowercase
 * There is a maximum of 1 whitespace (interval) between two words
