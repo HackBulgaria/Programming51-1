@@ -50,6 +50,8 @@ public class IntPair {
 
 ## Examples
 
+**Here is a boilerplate class ready to take console input:**
+
 ```java
 public class BirthdayRanges {
 
@@ -89,4 +91,46 @@ public class BirthdayRanges {
      }   
   }
 }
+```
+
+And now, for input:
+
+```
+11
+5 10 6 7 3 4 5 11 21 300 15
+4
+4 9
+6 7
+200 225
+300 365
+```
+
+We should get output:
+
+```
+Result is:
+5, 2, 0, 1,
+```
+
+---
+
+For input:
+
+```
+5
+1 2 3 4 5
+5
+1 2
+1 3
+1 4
+1 5
+4 6
+```
+
+
+We should get output:
+
+```
+Result is:
+2, 3, 4, 5, 2,
 ```
