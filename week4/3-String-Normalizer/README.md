@@ -11,35 +11,73 @@ A normalized string is a string where:
 
 ## The Task:
 
-Create a static method `public static String normalizeString(String s)` that recieves a string `s` and returns a normalized version of `s`
+In a `class String Normalizer` create a static method `public static String normalizeString(String s)` which recieves a string `s` and returns a normalized version of `s`
+
+## `class StringNormalizer` shlould look like:
+
+```java
+package week4;
+
+import java.util.Scanner;
+
+public class StringNormalizer {
+
+	public static String normalizeString(String str) {
+		// TODO: implementation here
+	}
+
+}
+```
 
 ## Examples:
 
-### Example 1:
-
-Somewhere in main:
+**Here is a boilerplate class ready to take console input:**
 
 ```java
-String s = "  wHaT  iS UP? ";
-System.out.println(normalizeString(s));
+package week4;
+
+import java.util.Scanner;
+
+public class StringNormalizer {
+
+	public static String normalizeString(String str) {
+		// TODO: implementation here
+	}
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+
+		String s = scanner.next();
+
+		System.out.println(normalizeString(s));
+	}
+
+}
 ```
 
-Should print:
+
+And now, for input:
+
+```
+  wHaT  iS UP?   
+```
+
+We should get output:
 
 ```
 What Is Up?
 ```
 
-### Example 2:
+---
 
-Somewhere in main:
+And for input:
 
-```java
-String s = " HACK bULGARIA     iS a Cool PLACE for PROGRAMMING!";
-System.out.println(normalizeString(s));
+```
+   HACK bULGARIA     iS a Cool PLACE for PROGRAMMING!      
 ```
 
-Should print:
+We should get output:
 
 ```
 Hack Bulgaria Is A Cool Place For Programming!
