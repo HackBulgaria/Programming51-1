@@ -30,7 +30,7 @@ In a class called `BirthdayRanges` create a static method:
 ```java
 public class BirthdayRanges {
 
-  public static Vector<Integer> birthdaysCount(Vector<Integer> birthdays, Vector<IntPair>) {
+  public static Vector<Integer> birthdaysCount(Vector<Integer> birthdays, Vector<IntPair> ranges) {
     // implementation
   }
 
@@ -55,7 +55,7 @@ public class IntPair {
 ```java
 public class BirthdayRanges {
 
-  public static Vector<Integer> birthdaysCount(Vector<Integer> birthdays, Vector<IntPair>) {
+  public static Vector<Integer> birthdaysCount(Vector<Integer> birthdays, Vector<IntPair> ranges) {
     // implementation
   }
   
