@@ -66,7 +66,7 @@ And now, for input:
 3
 5 5 10 -20 4 50
 3 1 55 28
-4 20 10 4
+4 20 10 4 50
 ```
 
 We should get output:
