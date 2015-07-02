@@ -155,3 +155,33 @@ Give the following output:
 ```
 [[Rado], [Rado], [Rado, Maria], [Rado, Maria, Aneta, Tanya]]
 ```
+
+### Explanation of the input
+
+With comments: (do not paste into Java console, not a valid input.)
+
+```
+5 -> total number of students
+Ivo
+Rado
+Maria
+Aneta
+Tanya
+4 -> total number of days
+4 -> How many students during first day
+Ivo
+Maria
+Aneta
+Tanya
+4 -> How many students during second day
+Ivo
+Maria
+Aneta
+Tanya
+3 -> How many students during third day
+Ivo
+Aneta
+Tanya
+1 -> How many students during fourth day
+Ivo
+```
