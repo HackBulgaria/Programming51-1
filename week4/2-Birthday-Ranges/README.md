@@ -105,12 +105,11 @@ public class BirthdayRanges {
 
 ```
 
-And now, for input:
+And now, for input: (We read `N` = number of birthdays and `M` = number of ranges as the first two integers of the input)
 
 ```
-11
+11 4
 5 10 6 7 3 4 5 11 21 300 15
-4
 4 9
 6 7
 200 225
@@ -121,7 +120,10 @@ We should get output:
 
 ```
 Result is:
-5, 2, 0, 1,
+5
+2
+0
+1
 ```
 
 ---
@@ -129,9 +131,8 @@ Result is:
 For input:
 
 ```
-5
+5 5
 1 2 3 4 5
-5
 1 2
 1 3
 1 4
@@ -144,5 +145,9 @@ We should get output:
 
 ```
 Result is:
-2, 3, 4, 5, 2,
+2
+3
+4
+5
+2
 ```
