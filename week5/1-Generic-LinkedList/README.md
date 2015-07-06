@@ -1,13 +1,13 @@
 # Generic Linked List
 
-Create a `class LList` where you should implement a Generic Linked List by creating a seperate nodes and linking them.
+Create a `class LinkedList` where you should implement a Generic Linked List by creating a seperate nodes and linking them.
 
-In your class you should have a private Node class that should look like this:
+You should define a `public Node<T>` class that should look like this:
 
 ```java
 private class Node<T>{
-	T data;
-	Node next;
+	public T data;
+	public Node next;
 
 	public Node(T data){
 		this.data = data;
@@ -16,7 +16,7 @@ private class Node<T>{
 }
 ```
 
-In `class LList` you should define the following methods:
+In `class LinkedList` you should define the following methods:
 
 * `public void add(T el)` method that adds an element to the end of the list
 * `public T get(int index)` method that returns the element on the `index` place
@@ -29,20 +29,14 @@ In `class LList` you should define the following methods:
 ```java
 package week5;
 
-public class LList<T> {
-	
-	private class Node<T> {
-		public T data;
-		public Node next;
-
-		public Node(T data) {
-			this.data = data;
-		}
-		
-	}
+public class LinkedList<T> {
 	
 	private Node<T> head;
 	private Node<T> tail;
+
+	public LinkedList(){
+		// Proper constructor
+	}
 	
 	public void add(T el){
 		// Append an element to the end of the list
@@ -79,7 +73,7 @@ package week5;
 public class Main {
 	
 	public static void main(String[] args){
-		LList<Integer> l = new LList<>();
+		LinkedList<Integer> l = new LinkedList<>();
 		for (int i = 10; i < 20; i++) {
 			l.add(i);
 		}
