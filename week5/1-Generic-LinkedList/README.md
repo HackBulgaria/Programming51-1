@@ -5,7 +5,7 @@ Create a `class LinkedList` where you should implement a Generic Linked List by 
 You should define a `public Node<T>` class that should look like this:
 
 ```java
-private class Node<T>{
+public class Node<T>{
 	public T data;
 	public Node next;
 
