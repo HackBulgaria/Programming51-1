@@ -117,7 +117,8 @@ Rado
 Give the following output:
 
 ```
-[[Maria, Tanya, Rado], [Kamen, Ivo, Tanya]]
+
+[[Maria, Rado, Tanya], [Ivo, Kamen, Tanya]]
 ```
 
 ---
@@ -150,7 +151,7 @@ Tanya
 Ivo
 ```
 
-Give the following output:
+**Give the following output, where each day, the missing students are sorted a->z**
 
 ```
 [[Rado], [Rado], [Rado, Maria], [Rado, Maria, Aneta, Tanya]]
