@@ -7,11 +7,12 @@ Your task is to count the occurences of the `word` in the table. The word can be
 
 find the word `ivan` in the table:
 
-| i | b | c | d | r |
-|---|---|---|---|---|
-| e | v | g | h | q |
-| i | n | a | v | i |
-| m | v | o | n | t |
+| i    | v     | a     | n     |
+|---   |---    |---    |---    |
+| e    | **v** | **n** | h     |
+| i    | n     | **a** | v     |
+| m    | v     | **v** | **n** |
+| q    | r     | **i** | t     |
 
 Result:
 ```
