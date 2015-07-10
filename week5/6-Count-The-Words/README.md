@@ -6,7 +6,8 @@ Your task is to count the occurences of the `word` in the table. The word can be
 ## For example:
 
 find the word `IVAN` in the table:
-
+|   |   |   |   |   |
+|---|---|---|---|---|
 | I | B | C | D | R |
 | E | V | G | H | Q |
 | I | N | A | V | I |
