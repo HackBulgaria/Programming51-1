@@ -7,10 +7,10 @@ Your task is to count the occurences of the `word` in the table. The word can be
 
 find the word `IVAN` in the table:
 
-|I|B|C|D|R|
-|E|V|G|H|Q|
-|I|N|A|V|I|
-|M|N|O|N|T|
+| I | B | C | D | R |
+| E | V | G | H | Q |
+| I | N | A | V | I |
+| M | V | O | N | T |
 
 Result:
 ```
