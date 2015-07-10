@@ -28,6 +28,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		String searched = scanner.next();
 		char [][] map;
 		int n,m;
 		n = scanner.nextInt();
