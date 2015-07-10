@@ -5,13 +5,13 @@ Your task is to count the occurences of the `word` in the table. The word can be
 
 ## For example:
 
-find the word `IVAN` in the table:
-|   |   |   |   |   |
+find the word `ivan` in the table:
+
+| i | b | c | d | r |
 |---|---|---|---|---|
-| I | B | C | D | R |
-| E | V | G | H | Q |
-| I | N | A | V | I |
-| M | V | O | N | T |
+| e | v | g | h | q |
+| i | n | a | v | i |
+| m | v | o | n | t |
 
 Result:
 ```
