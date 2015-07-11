@@ -90,7 +90,7 @@ Should print:
 
 ```
 madam
-8 13
+8 12
 z v a n q h r e z g t z
 e v m h t r x e k y m a
 i a c a u a l l y a c x
