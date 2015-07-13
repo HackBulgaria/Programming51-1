@@ -54,7 +54,7 @@ The damage of the weapon is always `1`, when you run out of bullets.
 
 There is a `Zombie` interface:
 
-```
+```java
 public interface Zombie {
   public int getTotalHealth();
   public int getCurrentHealth();
@@ -92,7 +92,7 @@ Output:
 2
 ```
 
-We kill the first zombie (damage = 10, health = 10) with the first hit. We do the same with the second hit.
+We kill the first zombie (`damage = 10`, `health = 10`) with the first hit. We do the same with the second hit.
 
 ---
 
