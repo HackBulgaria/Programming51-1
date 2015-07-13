@@ -32,7 +32,7 @@ When you have the 4 classes ready, implement a class called `Landscape` which sh
 
 Lets have a `Main` class:
 
-```
+```java
 public class Main {
   public static void main(String[] args) {
     Landscape landscape = new Landscape();
