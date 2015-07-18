@@ -42,8 +42,40 @@ The Movement class is going to be our main class, that we will inherit from:
 
 ```java
 public class Movement {
-	public void move() {
+	public Pair<Integer> move(Pair<Integer> currentPosition) {
 		System.out.println("Moving from the basic movement class.");
+		return null;
+	}
+}
+```
+
+We use the `Pair` class so we can store the `x` and `y` coordinates of our player in the labirinth ( the `X` )
+Here's the implementation of the `Pair` class. It looks very similar to the `BoxWithTwoThings` class
+
+```java
+public class Pair<T> {
+	private T first;
+	private T second;
+	
+	public Pair(T first, T second) { 
+		this.setFirst(first);
+		this.setSecond(second);
+	}
+
+	public T getFirst() {
+		return first;
+	}
+
+	public void setFirst(T first) {
+		this.first = first;
+	}
+
+	public T getSecond() {
+		return second;
+	}
+
+	public void setSecond(T second) {
+		this.second = second;
 	}
 }
 ```
@@ -61,8 +93,10 @@ For example:
 
 ```java
 public class MoveRight extends Movement {
-	public void move() {
+	public Pair<Integer> move(Pair<Integer> currentPosition) {
 		System.out.println("Moving right!");
+		// This is just an example! The math here depends on yout implementation.
+		currentPosition.setSecond(currentPosition.getSecond()+1);
 	}
 }
 ```
