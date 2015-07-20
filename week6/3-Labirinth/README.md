@@ -84,7 +84,7 @@ public class MoveRight extends Movement {
 	public Pair<Integer> move(Pair<Integer> currentPosition) {
 		System.out.println("Moving right!");
 		// This is just an example! The math here depends on yout implementation.
-    Pair<Integer> newPosition = new Pair<Integer>(currentPosition.getFirst(), currentPosition.getSecond() + 1);
+    Pair<Integer> newPosition = new Pair<>(currentPosition.getFirst(), currentPosition.getSecond() + 1);
     
     return newPosition;
 	}
