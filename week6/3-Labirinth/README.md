@@ -58,25 +58,13 @@ public class Pair<T> {
 	private T second;
 	
 	public Pair(T first, T second) { 
-		this.setFirst(first);
-		this.setSecond(second);
+    this.first = first;
+    this.second = second;
 	}
 
-	public T getFirst() {
-		return first;
-	}
+  public T getFirst() { return first; }
 
-	public void setFirst(T first) {
-		this.first = first;
-	}
-
-	public T getSecond() {
-		return second;
-	}
-
-	public void setSecond(T second) {
-		this.second = second;
-	}
+  public T getSecond() { return second; }
 }
 ```
 
@@ -96,7 +84,9 @@ public class MoveRight extends Movement {
 	public Pair<Integer> move(Pair<Integer> currentPosition) {
 		System.out.println("Moving right!");
 		// This is just an example! The math here depends on yout implementation.
-		currentPosition.setSecond(currentPosition.getSecond()+1);
+    Pair<Integer> newPosition = new Pair<Integer>(currentPosition.getFirst(), currentPosition.getSecond() + 1);
+    
+    return newPosition;
 	}
 }
 ```
