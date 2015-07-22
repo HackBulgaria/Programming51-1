@@ -32,7 +32,6 @@ Here's a boilerplate for the `main` function:
 
 ```java
 import java.util.Scanner;
-import java.util.Vector;
 
 public class Main {
 	
