@@ -4,8 +4,8 @@ You have a Queue at your disposal. Implement the Stack data structure, using onl
 
 ## Interface of Queue
 
-```
-interface Queue {
+```java
+public interface Queue {
   public T pop(); // removes the head and returns it
   public T peek(); // only returns the head without removing it
   public boolean isEmpty(); // returns true if empty
