@@ -75,7 +75,7 @@ public class Parser {
 **Input**
 
 ```
-f1
+f2
 1
 ```
 
@@ -85,14 +85,14 @@ f1
 2
 ```
 
-This one is easy. We need only to call `f1(1)` which is equal to `1 + 1 = 2`.
+This one is easy. We need only to call `f2(1)` which is equal to `1 + 1 = 2`.
 
 ---
 
 **Input**
 
 ```
-f1 . f1
+f2 . f2
 1
 ```
 
@@ -102,7 +102,7 @@ f1 . f1
 3
 ```
 
-Now, we need to call `f1(f1(1))`, which is equal to `f1(2) = 3`
+Now, we need to call `f2(f2(1))`, which is equal to `f2(2) = 3`
 
 ---
 
