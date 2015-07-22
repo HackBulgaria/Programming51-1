@@ -21,7 +21,7 @@ The method should look like this:
 
 ```java
 public class Brackets {
-	public static boolean isCorrect(String brackets) {
+	public static boolean areCorrect(String brackets) {
 		// Your implementation here
 		return true;
 	}
