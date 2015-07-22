@@ -2,16 +2,16 @@
 
 Here are some examples of correctly closed brackets:
 
-* ()
-* ()[]
-* ([])[]
-* {[]([]())}
+* `()`
+* `()[]`
+* `([])[]`
+* `{[]([]())}`
 
 And here are some examples of **incorrectly** closed brackets:
 
-* (}
-* ([)]
-* [({)]}
+* `(}`
+* `([)]`
+* `[({)]}`
 
 ## The task:
 
