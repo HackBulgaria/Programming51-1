@@ -42,6 +42,31 @@ You are about to write a Java program, that reads one function composition expre
 
 The program should output the result of calling the function composition with the argument.
 
+## Boilerplate
+
+```java
+import java.util.Scanner;
+
+public class Parser {
+  
+  public static int evaluate(String formula, int x) {
+    // implementation
+    return x;
+  }
+  
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    
+    String input = scanner.nextLine();
+    int x = scanner.nextInt();
+    
+    System.out.println(evaluate(input, x));
+
+  }
+
+}
+```
+
 ## Examples
 
 * On the first line, read one `String`. Functions are going to be separated by `" . "`.
