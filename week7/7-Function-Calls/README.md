@@ -12,7 +12,7 @@ All functions are working with integers.
 For example:
 
 ```
-f1(1) = f2(1) + f3(1) = 2 * 1 + 2 + 1 = 5
+f1(1) = f2(1) + f3(1) = 2 * 1 + 2 + 1 = 4
 f2(1) = 2 * 1 = 2
 f3(1) = 1 + 1 = 2
 f4(1) = 2 * f1(1) = 10
