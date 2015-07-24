@@ -20,7 +20,7 @@ Here is the Stack class:
 ```java
 public class Stack<T> {
   
-  private Queue<T> firstQueue = new Queue<>();
+  private Queue<T> firstQueue = new LinkedList<T>();
 
   public T pop() {
     return null;
