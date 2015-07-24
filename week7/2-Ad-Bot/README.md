@@ -32,7 +32,7 @@ public class Main {
 		
 		AdBot ad = new AdBot(s);
 		for (int i = 0; i < 100; i++) {
-			ad.showNextAdd();
+			ad.showNextAd();
 			Thread.sleep(1000);
 		}
 	}
