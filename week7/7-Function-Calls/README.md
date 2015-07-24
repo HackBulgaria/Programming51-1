@@ -99,7 +99,7 @@ f2 . f2
 **Output**
 
 ```
-3
+4
 ```
 
 Now, we need to call `f2(f2(1))`, which is equal to `f2(2) = 3`
