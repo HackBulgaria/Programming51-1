@@ -1,6 +1,6 @@
 # Function Calls with our Functions
 
-In order to solve that problem, it is a good idea to solve Function Calls first.
+In order to solve that problem, it is a good idea to solve [Function Calls first](../7-Function-Calls)
 
 Now, in the previous problem, we had predefined functions. This is easy. **Now, we are going to read our functions from the input.**
 
@@ -13,7 +13,7 @@ We are going to use a very simple function language:
 * All functions are going to have **1 argument**
 * All functions can only do expressions involving valid integers, the argument and the `+` and `-` operations. Brackets, `*` and other operations are not in our language.
 * **Functions can include function calls to other functions.**
-* **In our function language everyting is separated by exactly one `" "`** You can count on thast.
+* **In our function language everyting is separated by exactly one `" "`** You can count on that.
 
 Here are some example functions, that are valid:
 
@@ -25,6 +25,19 @@ f2 x = 1
 f3 x = x + 1 - 2
 f4 x = inc(x) + inc(1)
 ```
+
+Our functions have the following form:
+
+```
+<function name> <argument-name> = <function-body>
+```
+
+* `<function-name>` can be 1 or more characters from `[a-z]`
+* `<argument-name>` can be 1 or more characters from `[a-z]`
+* `<function-body> = <values> | <function-calls> | <operations>` where `|` means or.
+* `<values>` are valid integers values. For example: `1`, `12`, `123`
+* `<function-calls>` are in the form `<function-name>(<arguments>)`
+* `<operations>` can be only `+` and `-`
 
 ## The new problem
 
