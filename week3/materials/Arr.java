@@ -54,11 +54,7 @@ public class Arr {
 		return result;
 	}
 
-<<<<<<< HEAD
-	public static void selectionSort(int[] a) {
-=======
-	public static void kamenSort(int[] a) {
->>>>>>> 7f93bbd000e36e531dee9571de416cd2a4650abe
+	public static void bubbleSort(int[] a) {
 		for(int i=0;i<a.length;i++){
 			for(int j=i;j<a.length;j++){
 				if(a[j] < a[i]){
