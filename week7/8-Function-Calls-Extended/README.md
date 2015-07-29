@@ -142,6 +142,7 @@ Now, the definition of `dec` uses `inc`. We must call `inc` with the `x` value p
 Another input:
 
 ```
+2
 inc x = x + 1
 dec x = x - inc(0)
 dec . dec
