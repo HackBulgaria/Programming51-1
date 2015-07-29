@@ -6,6 +6,8 @@ Luckily we still have some big lakes full of clean water. We need to know exactl
 
 Write a program that takes the lake structure and calculates the amount of water there.
 
+**After you get this done, try to rewrite it using recursion only!**
+
 ## The Input
 
 We take a string that represents the structure of the lake.

@@ -1,6 +1,6 @@
 # Find The Panda
 
-**Try to solve this problem using recursion. No ``for`` or ``while``! Then try some other ways to solve it!**
+**After you get this done, try to rewrite it using recursion only!**
 
 You are in a maze and you are searching for your panda!
 
