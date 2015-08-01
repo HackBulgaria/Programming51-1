@@ -55,3 +55,7 @@ Here:
 * The yellow marks the path from start to end.
 
 You can animate each step of the path or you can just show the entire path. It is up to you.
+
+## Help
+
+You can use the PriorityQueue from Java - http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html
