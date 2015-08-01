@@ -33,3 +33,11 @@ There should be options to:
 * Update an existing word of meaning.
 * Remove a word with its meaning.
 * Show all words and all meanings in a table.
+
+## A Pathfinding in 2D grid with A*
+
+In a Java 2D world, make a grid where you have some obstacles (can be different colors), a starting point and an ending point.
+
+You should implement such logic that when a button is clicked, the program should highlight the path from the starting point to the goal.
+
+To find the path between the two points, use the [A-Star algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
