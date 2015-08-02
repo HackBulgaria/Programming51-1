@@ -56,6 +56,12 @@ Here:
 
 You can animate each step of the path or you can just show the entire path. It is up to you.
 
-## Help
+**You can make diagonal moves too!**
 
-You can use the PriorityQueue from Java - http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html
+### Help
+
+A bunch of links to get you started:
+
+* [A great description of what A-Star is and how to use it](http://buildnewgames.com/astar/)
+* [Manhattan distance for the heuristic function](https://en.wikipedia.org/wiki/Taxicab_geometry)
+* You can use the PriorityQueue from Java - http://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html
