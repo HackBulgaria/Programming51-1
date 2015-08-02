@@ -14,7 +14,7 @@ Examples of classic games are:
 * [Mario Bros](https://en.wikipedia.org/wiki/Mario_Bros.)
 * [Pinball](https://en.wikipedia.org/wiki/Full_Tilt!_Pinball#3D_Pinball_for_Windows_.E2.80.93_Space_Cadet)
 
-### Note
+## Note
 
 There are many more games that you can use. You have to pick two of these and merge them into one game.
 
@@ -27,3 +27,13 @@ The game you chose should have a 2D visualisation and should be playable with on
 ## Advices
 
 Try to work as much Object Oriented as possible. Working with objects makes game development much easier!
+
+## Help
+
+It is a good idea to first create a simple classic 2D game.
+
+You can follow this tutorial - <http://zetcode.com/tutorials/javagamestutorial/>
+
+When you feel comfortable with what is happening - then, go and start combining things.
+
+If you are looking for game art, check this - <http://opengameart.org/>
