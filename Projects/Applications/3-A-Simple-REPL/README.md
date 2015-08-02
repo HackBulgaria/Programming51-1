@@ -88,3 +88,10 @@ A more complete example:
 >>> "Let me give you some result " + exclamate(intToStr(squareSum(inc(a), inc(b))))
 "Let me give you some result 85!"
 ```
+
+## Help
+
+The following algorithms are going to help you:
+
+* [Shunting Yard](https://en.wikipedia.org/wiki/Shunting-yard_algorith)
+* [Postfix Algorithm](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
