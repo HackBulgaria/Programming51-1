@@ -7,6 +7,15 @@ The course is happening thanks to:
 [![Nemetschek Bulgaria](https://hackbulgaria.com/media/partner_logoes/logo_transparent_w200.png)](http://www.nemetschek.bg/)
 
 
+## Videos
+
+| Тема | Слайдове | Допълнителни материали за четене |
+|------|----------|----------------------------------|
+| Уводно видео за поредицата | Предстои качване | Предстои качване |
+| Сложност на Алгоритми | Предстои качване | Предстои качване |
+| Интуиция за Структури от Данни | Предстои качване | Предстои качване |
+
+
 ## Course weeks
 
 | Week | Date | Tasks | Presentation | 
