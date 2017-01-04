@@ -12,7 +12,7 @@ The course is happening thanks to:
 | Тема | Слайдове | Допълнителни материали за четене |
 |------|----------|----------------------------------|
 | [Уводно видео за поредицата](https://www.youtube.com/watch?v=hDPp6gV_Is0) | [Цък.](http://slides.com/hackbulgaria/programming-51-videos-for-data-structures) | В презентацията. |
-| Сложност на алгоритми | Предстои качване | Предстои качване |
+| [Сложност на алгоритми](https://www.youtube.com/watch?v=GUFNSzV2RQM) | [Цък.](http://slides.com/hackbulgaria/programming51-algo-complexity) | В презентацията. |
 | Интуиция за структури от данни | Предстои качване | Предстои качване |
 
 
