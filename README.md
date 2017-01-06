@@ -13,7 +13,7 @@ The course is happening thanks to:
 |------|----------|----------------------------------|
 | [Уводно видео за поредицата](https://www.youtube.com/watch?v=hDPp6gV_Is0) | [Цък.](http://slides.com/hackbulgaria/programming-51-videos-for-data-structures) | В презентацията. |
 | [Сложност на алгоритми](https://www.youtube.com/watch?v=3V14F9suOLo) | [Цък.](http://slides.com/hackbulgaria/programming51-algo-complexity) | В презентацията. |
-| Интуиция за структури от данни | Предстои качване | Предстои качване |
+| [Интуиция за структури от данни](https://www.youtube.com/watch?v=GFiAsl7AVRM) | [Цък.](http://slides.com/hackbulgaria/programming51-intuition-for-data-structures) | [Java: what's the big-O time of declaring an array of size n?](http://stackoverflow.com/questions/5640850/java-whats-the-big-o-time-of-declaring-an-array-of-size-n) |
 
 
 ## Course weeks
